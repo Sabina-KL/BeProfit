@@ -1,5 +1,5 @@
 1. Project was created using Eclipse IDE, on Windows OS
-2. I used up XAMPP to build this project and Doctrine/ DBAL package
+2. I used up XAMPP to build/run this project and Doctrine/ DBAL package for the database
 ====================================================
 
 # download composer manually (if Windows OS)
