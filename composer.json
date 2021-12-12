@@ -1,0 +1,7 @@
+{
+    "require": {
+        "doctrine/dbal": "^3.2",
+        "doctrine/orm": "*",
+        "symfony/orm-pack": "^2.1"
+    }
+}

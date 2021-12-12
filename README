@@ -1,0 +1,37 @@
+1. Project was created using Eclipse IDE, on Windows OS
+2. I used up XAMPP to build this project and Doctrine/ DBAL package
+====================================================
+
+# download composer manually (if Windows OS)
+	## go to: https://getcomposer.org/download/
+	and run the windows installer option on the very top of the page
+	https://www.devdude.com/install-composer-xampp/
+
+# Enable / create the following in "php.ini"
+ 	## extension=php_openssl.dll
+	
+	
+# Run "composer require doctrine/dbal" (Windows OS)
+   ## added to composer.json
+        "doctrine/dbal": "^3.2",
+        "doctrine/orm": "*",
+        "symfony/orm-pack": "^2.1"
+        
+    ## run composer install
+    
+# Find test(1).sql file
+  to update your database
+
+==========================================================================================
+==========================================================================================
+
+HOW TO RUN THE SCRIPT: VIA TERMINAL 
+--------------------------------------------------------------------------------------------------------------------------------
+
+1. This will trigger the integration API and do the inserts into the relevant tables
+   run: 
+  		c:\xampp\php\php.exe Crons/PricesIntegration.php
+
+2. To run the analytics
+   run: 
+   		c:\xampp\php\php.exe PricesCalc/PricesCalc.php
